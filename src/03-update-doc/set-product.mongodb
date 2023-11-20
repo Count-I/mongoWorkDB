@@ -25,10 +25,9 @@ db.products.updateOne(
       description: 'Cama acolchada doble',
       category: 'Camas Mejoradas',
       image: 'cama2.jpg'
-    }
+    } 
   }
 )
-
 
 db.products.updateOne(
   { _id: 3 },
