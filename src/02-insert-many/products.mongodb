@@ -1,0 +1,132 @@
+use("pet_store")
+
+db.products.insertMany([
+  {
+    _id: 1,
+    title: "Juguete Interactivo para Mascotas",
+    price: 50,
+    description: "Juguete de alta calidad para tu amigo peludo. Apto para gatos y perros.",
+    category: "Juguetes",
+    image: "juguete1.jpg"
+  },
+  {
+    _id: 2,
+    title: "Cama Confortable para Mascotas",
+    price: 35,
+    description: "Cama cómoda para mascotas con cojines suaves. Ideal para una buena noche de sueño.",
+    category: "Camas",
+    image: "cama2.jpg"
+  },
+  {
+    _id: 3,
+    title: "Golosinas Nutritivas para Mascotas",
+    price: 75,
+    description: "Golosinas nutritivas y deliciosas para mascotas. Perfectas para entrenamiento o como premio.",
+    category: "Golosinas",
+    image: "golosina3.jpg"
+  },
+  {
+    _id: 4,
+    title: "Collar Elegante para Mascotas",
+    price: 60,
+    description: "Collar elegante para mascotas con correas ajustables. Mantén a tu mascota segura y a la moda.",
+    category: "Accesorios",
+    image: "collar4.jpg"
+  },
+  {
+    _id: 5,
+    title: "Juguete Interactivo para Estimulación Mental",
+    price: 40,
+    description: "Juguete interactivo para mascotas para estimulación mental. Desafía la inteligencia de tu mascota.",
+    category: "Juguetes",
+    image: "rompecabezas5.jpg"
+  },
+  {
+    _id: 6,
+    title: "Champú Premium para Mascotas",
+    price: 55,
+    description: "Champú premium para mascotas para un pelaje brillante y saludable. Suave con la piel sensible.",
+    category: "Cuidado Personal",
+    image: "champu6.jpg"
+  },
+  {
+    _id: 7,
+    title: "Correa Resistente para Paseos al Aire Libre",
+    price: 25,
+    description: "Correa resistente para mascotas para paseos y aventuras al aire libre. Disponible en varios colores.",
+    category: "Accesorios",
+    image: "correa7.jpg"
+  },
+  {
+    _id: 8,
+    title: "Casa Acogedora para Mascotas",
+    price: 70,
+    description: "Casa acogedora para mascotas con cojín extraíble. Crea un espacio cómodo para tu mascota.",
+    category: "Vivienda",
+    image: "casa8.jpg"
+  },
+  {
+    _id: 9,
+    title: "Comida Nutritiva para Mascotas",
+    price: 45,
+    description: "Comida nutritiva para mascotas con carne real. Dieta equilibrada para el bienestar de tu mascota.",
+    category: "Alimentos",
+    image: "comida9.jpg"
+  },
+  {
+    _id: 10,
+    title: "Juguete Láser Interactivo",
+    price: 30,
+    description: "Juguete láser interactivo para horas de juego. Divierte a tu gato con el láser.",
+    category: "Juguetes",
+    image: "laser10.jpg"
+  },
+  {
+    _id: 11,
+    title: "Manta Suave para Noches Frías",
+    price: 65,
+    description: "Manta suave y esponjosa para mascotas para calidez y comodidad. Ideal para noches frías.",
+    category: "Ropa de Cama",
+    image: "manta11.jpg"
+  },
+  {
+    _id: 12,
+    title: "Tazón de Acero Inoxidable",
+    price: 50,
+    description: "Tazón de acero inoxidable para mascotas para comida y agua. Fácil de limpiar y duradero.",
+    category: "Tazones",
+    image: "tazon12.jpg"
+  },
+  {
+    _id: 13,
+    title: "Árbol para Gatos de Varios Niveles",
+    price: 80,
+    description: "Árbol para gatos de varios niveles para trepar y rascar. Mantén entretenido a tu gato.",
+    category: "Muebles",
+    image: "arbol_gatos13.jpg"
+  },
+  {
+    _id: 14,
+    title: "Palitos Dentales Masticables",
+    price: 55,
+    description: "Palitos dentales masticables para la salud bucal. Promueve dientes limpios y aliento fresco.",
+    category: "Cuidado Dental",
+    image: "palitos_dentales14.jpg"
+  },
+  {
+    _id: 15,
+    title: "Peluche Chirriante para Perros Juguetones",
+    price: 35,
+    description: "Juguete de peluche chirriante para perros juguetones. Proporciona entretenimiento y ejercicio.",
+    category: "Juguetes",
+    image: "peluche15.jpg"
+  },
+  {
+    _id: 20,
+    title: "Producto para Mascotas",
+    price: 90,
+    description: "Descripción para el Producto 20",
+    category: "Categoría 3",
+    image: "imagen20.jpg"
+  }
+])

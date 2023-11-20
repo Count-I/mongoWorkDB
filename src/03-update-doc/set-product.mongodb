@@ -1,0 +1,143 @@
+use("pet_store")
+
+use("pet_store")
+
+db.products.updateOne(
+  { _id: 1 },
+  {
+    $set: {
+      title: 'Juguete para Mascotas',
+      price: 600,
+      description: 'Juguete para morder',
+      category: 'Juguetes Mejorados',
+      image: 'juguete1.jpg'
+    }
+  }
+)
+
+
+db.products.updateOne(
+  { _id: 2 },
+  {
+    $set: {
+      title: 'Cama para Mascotas',
+      price: 40,
+      description: 'Cama acolchada doble',
+      category: 'Camas Mejoradas',
+      image: 'cama2.jpg'
+    }
+  }
+)
+
+
+db.products.updateOne(
+  { _id: 3 },
+  {
+    $set: {
+      title: 'Distribuidor de Concentrado',
+      price: 80,
+      description: 'Distribuidor con doble funcionalidad para agua y concentrado',
+      category: 'Golosinas Premium',
+      image: 'Distribuidor.jpg'
+    }
+  }
+)
+
+
+db.products.updateOne(
+  { _id: 4 },
+  {
+    $set: {
+      title: 'Collar de Perlas',
+      price: 700,
+      description: 'Collar fino de perlas blancas',
+      category: 'Accesorios Elegantes',
+      image: 'accesorio4.jpg'
+    }
+  }
+)
+
+
+db.products.updateOne(
+  { _id: 5 },
+  {
+    $set: {
+      title: 'Balón de Lana',
+      price: 45,
+      description: 'Balón de lana mejorado',
+      category: 'Juguetes Interactivos',
+      image: 'balon5.jpg'
+    }
+  }
+)
+
+
+db.products.updateOne(
+  { _id: 6 },
+  {
+    $set: {
+      title: 'Shampoo',
+      price: 60,
+      description: 'Shampoo para las pulgas',
+      category: 'Cuidado Personal Mejorado',
+      image: 'champu6.jpg'
+    }
+  }
+)
+
+
+db.products.updateOne(
+  { _id: 7 },
+  {
+    $set: {
+      title: 'Correa de Cuero',
+      price: 30,
+      description: 'Correa resistente y de buen material',
+      category: 'Accesorios Resistentes',
+      image: 'correa7.jpg'
+    }
+  }
+)
+
+db.products.updateOne(
+  { _id: 8 },
+  {
+    $set: {
+      title: 'Casa Iglú',
+      price: 90,
+      description: 'Casa Iglú con material térmico',
+      category: 'Viviendas de Iglú',
+      image: 'casa8.jpg'
+    }
+  }
+)
+
+
+db.products.updateOne(
+  { _id: 9 },
+  {
+    $set: {
+      title: 'Catshop',
+      price: 50,
+      description: 'Alimento alto en proteínas',
+      category: 'Alimentos Saludables',
+      image: 'comida9.jpg'
+    }
+  }
+)
+
+
+db.products.updateOne(
+  { _id: 10 },
+  {
+    $set: {
+      title: 'Laser',
+      price: 100,
+      description: 'Laser para gatos',
+      category: 'Juguetes Avanzados',
+      image: 'nlaser10.jpg'
+    }
+  }
+)
+
+
